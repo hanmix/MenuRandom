@@ -42,7 +42,7 @@ while (cn == 'y' or cn == 'Y'):
             time.sleep(1)
         elif i == 1:
             time.sleep(1)
-    print(random.choice(list(set_menu)))
+    print('오늘의 랜덤 메뉴는 ', random.choice(list(set_menu)), '입니다.')
 
     # 랜덤 결과를 처음부터 다시 출력(메뉴 추가로 이동) 또는 메뉴 정하기 종료
     cn = input('다시 하시겠습니까? (Y/N) : ')
